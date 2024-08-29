@@ -62,7 +62,7 @@ This project uses a Long Short-Term Memory (LSTM) model to predict emojis based 
 
 The LSTM model is trained on a dataset of sentences and their corresponding emojis. The model architecture and training process are detailed in the Jupyter Notebook.
 
-
+```
 ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
 ┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
@@ -81,7 +81,7 @@ The LSTM model is trained on a dataset of sentences and their corresponding emoj
 │ dense (Dense)                   │ (None, 5)              │           645 │
 ├─────────────────────────────────┼────────────────────────┼───────────────┤
 │ activation (Activation)         │ (None, 5)              │             0 │
-└─────────────────────────────────┴────────────────────────┴───────────────┘
+└─────────────────────────────────┴────────────────────────┴───────────────┘```
 
 ## Contributing
 
