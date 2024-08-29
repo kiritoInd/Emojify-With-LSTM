@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Your Sentences</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Emojify</h1>
+    <form method="post">
+        <label for="sentence">Enter a sentence:</label><br><br>
+        <input type="text" id="sentence" name="sentence" required><br><br>
+        <input type="submit" value="Convert">
+    </form>
+    {% if emoji %}
+        <h2>Emojified:</h2>
+        <p>{{ sentence }} {{ emoji }}</p>
+    {% endif %}
+</body>
+</html>
