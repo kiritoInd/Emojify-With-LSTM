@@ -26,8 +26,8 @@ This project uses a Long Short-Term Memory (LSTM) model to predict emojis based 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/emojify.git
-    cd emojify
+    git clone https://github.com/kiritoInd/Emojify-With-LSTM.git
+    cd Emojify-With-LSTM
     ```
 
 2. Install the required packages:
@@ -41,7 +41,7 @@ This project uses a Long Short-Term Memory (LSTM) model to predict emojis based 
 
 1. Start the Flask server:
     ```bash
-    python app.py
+    python server.py
     ```
 
 2. Send a POST request to the server to convert a sentence to an emoji:
@@ -81,7 +81,8 @@ The LSTM model is trained on a dataset of sentences and their corresponding emoj
 │ dense (Dense)                   │ (None, 5)              │           645 │
 ├─────────────────────────────────┼────────────────────────┼───────────────┤
 │ activation (Activation)         │ (None, 5)              │             0 │
-└─────────────────────────────────┴────────────────────────┴───────────────┘```
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+```
 
 ## Contributing
 
